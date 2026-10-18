@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-card-bio,
+.about-card-interests,
 .about-card-affiliation,
 .about-card-education {
     grid-column: 1 / -1;
@@ -50,7 +51,6 @@ h1, h2, h3, h4, h5, h6 {
 .about-card-bio { --card-tint: #edf3ff; --card-border: #dce6f7; }
 .about-card-affiliation { --card-tint: #f0edfc; --card-border: #e3ddf4; }
 .about-card-links { --card-tint: #eaf6f2; --card-border: #d6eae1; }
-.about-card-location { --card-tint: #fff4e7; --card-border: #f0e2cf; }
 .about-card-education { --card-tint: #edf5fa; --card-border: #dbe8f0; }
 .about-card-interests { --card-tint: #fceef2; --card-border: #f0dde4; }
 .about-card-contact { --card-tint: #eef5e9; --card-border: #dfE9d7; }
