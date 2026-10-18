@@ -6,9 +6,9 @@ My research interests span medical image analysis, AI for healthcare, and neuros
 My long-term goal is to develop reliable AI and imaging methods for clinical and biomedical applications.
 
 #### Research Affiliation
-Machine Intelligence in Medicine and Imaging Lab (MI2 Lab)\\
-Department of Biomedical Engineering\\
-New Jersey Institute of Technology, Newark, NJ, USA\\
+Machine Intelligence in Medicine and Imaging Lab (MI2 Lab)\
+Department of Biomedical Engineering\
+New Jersey Institute of Technology, Newark, NJ, USA\
 **Adviser / PI:** [Dr. Lin Zhao](https://people.njit.edu/profile/lz399)
 
 #### Links
