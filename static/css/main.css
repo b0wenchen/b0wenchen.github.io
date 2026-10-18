@@ -11,13 +11,55 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-.affiliation-card {
-    margin: 1rem 0 2rem;
+#home-md {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.about-card {
+    min-width: 0;
     padding: clamp(1.2rem, 4vw, 2rem);
-    border: 1px solid #dfe4f2;
+    border: 1px solid var(--card-border, #dfe4f2);
     border-radius: 1.25rem;
-    background: #f5f7fd;
+    background: linear-gradient(125deg, var(--card-tint, #f0f4fc), #fdfdff);
+    color: #303b4c;
     line-height: 1.65;
+    box-shadow: 0 4px 18px rgba(40, 55, 85, 0.035);
+    overflow-wrap: anywhere;
+}
+
+.about-card h4 {
+    margin: 0 0 1rem;
+    color: #283765;
+    font-size: 1.35rem;
+    font-weight: 800;
+}
+
+.about-card p:last-child {
+    margin-bottom: 0;
+}
+
+.about-card-bio,
+.about-card-affiliation,
+.about-card-education {
+    grid-column: 1 / -1;
+}
+
+.about-card-bio { --card-tint: #edf3ff; --card-border: #dce6f7; }
+.about-card-affiliation { --card-tint: #f0edfc; --card-border: #e3ddf4; }
+.about-card-links { --card-tint: #eaf6f2; --card-border: #d6eae1; }
+.about-card-location { --card-tint: #fff4e7; --card-border: #f0e2cf; }
+.about-card-education { --card-tint: #edf5fa; --card-border: #dbe8f0; }
+.about-card-interests { --card-tint: #fceef2; --card-border: #f0dde4; }
+.about-card-contact { --card-tint: #eef5e9; --card-border: #dfE9d7; }
+
+@media screen and (max-width: 767px) {
+    #home-md {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 1rem;
+    }
 }
 
 .affiliation-card p {

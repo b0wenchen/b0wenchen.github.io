@@ -1,3 +1,5 @@
+<div class="about-card about-card-bio">
+
 #### Short Bio
 I am a Ph.D. student in the joint Biomedical Engineering program at New Jersey Institute of Technology (NJIT) and Rutgers University. I conduct my research in the [Machine Intelligence in Medicine and Imaging Lab (MI2 Lab)](https://biomedical.njit.edu/research/centers.php) in NJIT's Department of Biomedical Engineering, advised by [Dr. Lin Zhao](https://lin-zhao-research.github.io/), the lab's principal investigator (PI).
 
@@ -5,31 +7,55 @@ My research interests span medical image analysis, AI for healthcare, and neuros
 
 My long-term goal is to develop reliable AI and imaging methods for clinical and biomedical applications.
 
+</div>
+
+<div class="about-card about-card-affiliation affiliation-card">
+
 #### Research Affiliation
 
-<div class="affiliation-card">
-    <p class="affiliation-lab">Machine Intelligence in Medicine and Imaging Lab <span class="affiliation-badge">MI2 Lab</span></p>
-    <p>Department of Biomedical Engineering</p>
-    <p>New Jersey Institute of Technology</p>
-    <p class="affiliation-location">Newark, NJ, USA</p>
-    <p class="affiliation-adviser"><span>Adviser / PI</span> <a href="https://lin-zhao-research.github.io/">Dr. Lin Zhao</a></p>
+<p class="affiliation-lab">Machine Intelligence in Medicine and Imaging Lab <span class="affiliation-badge">MI2 Lab</span></p>
+<p>Department of Biomedical Engineering</p>
+<p>New Jersey Institute of Technology</p>
+<p class="affiliation-location">Newark, NJ, USA</p>
+<p class="affiliation-adviser"><span>Adviser / PI</span> <a href="https://lin-zhao-research.github.io/">Dr. Lin Zhao</a></p>
+
 </div>
+
+<div class="about-card about-card-links">
 
 #### Links
 [GitHub](https://github.com/b0wenchen) &middot; [Google Scholar](https://scholar.google.com/citations?user=_lby_1UAAAAJ&hl=en)
 
+</div>
+
+<div class="about-card about-card-location">
+
 #### Location
 Newark, New Jersey, USA
 
+</div>
+
+<div class="about-card about-card-education">
+
 #### Education
-Ph.D. student, Biomedical Engineering, NJIT–Rutgers joint program, 2026–present\
-\
-Exchange student, Department of Electrical and Computer Engineering, University of California, Santa Barbara, 2024–2025\
-\
+Ph.D. student, Biomedical Engineering, NJIT–Rutgers joint program, 2026–present
+
+Exchange student, Department of Electrical and Computer Engineering, University of California, Santa Barbara, 2024–2025
+
 B.E., Opto-electronic Information Science and Engineering, Huazhong University of Science and Technology, 2021–2025
 
+</div>
+
+<div class="about-card about-card-interests">
+
 #### Research Interests
-<strong>Biomedical imaging</strong>, <strong> Medical AI</strong>, <strong>Neuroscience</strong>, and <strong>AI for healthcare</strong> 
+<strong>Biomedical imaging</strong>, <strong> Medical AI</strong>, <strong>Neuroscience</strong>, and <strong>AI for healthcare</strong>
+
+</div>
+
+<div class="about-card about-card-contact">
 
 #### Contact Info
 [bowen.chen@njit.edu](mailto:bowen.chen@njit.edu)
+
+</div>
