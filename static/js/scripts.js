@@ -32,7 +32,10 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Yaml
     fetch(content_dir + config_file, { cache: 'no-cache' })
-        .then(response => response.text())
+        .then(response => {
+            if (!response.ok) throw new Error(`Failed to load configuration: ${response.status}`);
+            return response.text();
+        })
         .then(text => {
             const yml = jsyaml.load(text);
             Object.keys(yml).forEach(key => {
@@ -51,13 +54,20 @@ window.addEventListener('DOMContentLoaded', event => {
     marked.use({ mangle: false, headerIds: false })
     section_names.forEach((name, idx) => {
         fetch(content_dir + name + '.md', { cache: 'no-cache' })
-            .then(response => response.text())
+            .then(response => {
+                if (!response.ok) throw new Error(`Failed to load ${name}: ${response.status}`);
+                return response.text();
+            })
             .then(markdown => {
                 const html = marked.parse(markdown);
                 document.getElementById(name + '-md').innerHTML = html;
             }).then(() => {
                 // MathJax
-                MathJax.typeset();
+                if (window.MathJax && MathJax.startup) {
+                    return MathJax.startup.promise.then(() => MathJax.typesetPromise([
+                        document.getElementById(name + '-md')
+                    ]));
+                }
             })
             .catch(error => console.log(error));
     })
