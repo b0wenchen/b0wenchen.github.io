@@ -3,8 +3,6 @@
 #### Short Bio
 I am a Ph.D. student in the joint Biomedical Engineering program at New Jersey Institute of Technology (NJIT) and Rutgers University. I conduct my research in the [Machine Intelligence in Medicine and Imaging Lab (MI2 Lab)](https://biomedical.njit.edu/research/centers.php) in NJIT's Department of Biomedical Engineering, advised by [Dr. Lin Zhao](https://lin-zhao-research.github.io/), the lab's principal investigator (PI).
 
-My research interests span medical image analysis, AI for healthcare, and neuroscience, including AI methods for cancer prediction and understanding brain function. With a background in optical engineering and biomedical imaging, I am interested in combining imaging technologies with machine learning to study disease progression and neural systems. My current work includes memory-augmented adaptation for medical image segmentation.
-
 My long-term goal is to develop reliable AI and imaging methods for clinical and biomedical applications.
 
 </div>
@@ -49,7 +47,9 @@ B.E., Opto-electronic Information Science and Engineering, Huazhong University o
 <div class="about-card about-card-interests">
 
 #### Research Interests
-<strong>Biomedical imaging</strong>, <strong> Medical AI</strong>, <strong>Neuroscience</strong>, and <strong>AI for healthcare</strong>
+My research interests span **biomedical imaging and medical image analysis**, **AI for healthcare**, and **neuroscience**, including AI methods for cancer prediction and understanding brain function.
+
+With a background in optical engineering and biomedical imaging, I am interested in combining imaging technologies with machine learning to study disease progression and neural systems. My current work includes memory-augmented adaptation for medical image segmentation.
 
 </div>
 
