@@ -1,5 +1,8 @@
 ## Selected Publications
 
+- #### [NeuronEye: Query-Guided Visual Concept Activation for Vision-Language Reasoning](https://arxiv.org/abs/2609.38098)
+  Ruiyu Yan, **Bowen Chen**, Shaowen Wan, and Lin Zhao. *arXiv preprint arXiv:2609.38098*, 2026.
+
 - #### [Shifting Adaptation from Weight Space to Memory Space: A Memory-Augmented Agent for Medical Image Segmentation](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_lby_1UAAAAJ&citation_for_view=_lby_1UAAAAJ:u5HHmVD_uO8C)
   **Bowen Chen**, Qiaohui Gao, Shaowen Wan, Shanhui Sun, Wei Liu, Xiang Li, Tianming Liu, and Lin Zhao. *arXiv preprint arXiv:2603.05873*, 2026.
 
