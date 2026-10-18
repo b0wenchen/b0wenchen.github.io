@@ -1,15 +1,19 @@
 #### Short Bio
-I am a Ph.D. student in the joint Biomedical Engineering program at New Jersey Institute of Technology (NJIT) and Rutgers University. I conduct my research in the [Machine Intelligence in Medicine and Imaging Lab (MI2 Lab)](https://biomedical.njit.edu/research/centers.php) in NJIT's Department of Biomedical Engineering, advised by [Dr. Lin Zhao](https://people.njit.edu/profile/lz399), the lab's principal investigator (PI).
+I am a Ph.D. student in the joint Biomedical Engineering program at New Jersey Institute of Technology (NJIT) and Rutgers University. I conduct my research in the [Machine Intelligence in Medicine and Imaging Lab (MI2 Lab)](https://biomedical.njit.edu/research/centers.php) in NJIT's Department of Biomedical Engineering, advised by [Dr. Lin Zhao](https://lin-zhao-research.github.io/), the lab's principal investigator (PI).
 
 My research interests span medical image analysis, AI for healthcare, and neuroscience, including AI methods for cancer prediction and understanding brain function. With a background in optical engineering and biomedical imaging, I am interested in combining imaging technologies with machine learning to study disease progression and neural systems. My current work includes memory-augmented adaptation for medical image segmentation.
 
 My long-term goal is to develop reliable AI and imaging methods for clinical and biomedical applications.
 
 #### Research Affiliation
-Machine Intelligence in Medicine and Imaging Lab (MI2 Lab)\
-Department of Biomedical Engineering\
-New Jersey Institute of Technology, Newark, NJ, USA\
-**Adviser / PI:** [Dr. Lin Zhao](https://people.njit.edu/profile/lz399)
+
+<div class="affiliation-card">
+    <p class="affiliation-lab">Machine Intelligence in Medicine and Imaging Lab <span class="affiliation-badge">MI2 Lab</span></p>
+    <p>Department of Biomedical Engineering</p>
+    <p>New Jersey Institute of Technology</p>
+    <p class="affiliation-location">Newark, NJ, USA</p>
+    <p class="affiliation-adviser"><span>Adviser / PI</span> <a href="https://lin-zhao-research.github.io/">Dr. Lin Zhao</a></p>
+</div>
 
 #### Links
 [GitHub](https://github.com/b0wenchen) &middot; [Google Scholar](https://scholar.google.com/citations?user=_lby_1UAAAAJ&hl=en)

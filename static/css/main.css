@@ -1,8 +1,60 @@
-@import "./styles.css";
-
-
 :root{
     --h-title-color:#3948d2;
+    --bs-body-font-family: "Nunito", "Arial Rounded MT Bold", "Segoe UI", sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6, .navbar-brand, .navbar-nav, .font-alt {
+    font-family: var(--bs-body-font-family) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.affiliation-card {
+    margin: 1rem 0 2rem;
+    padding: clamp(1.2rem, 4vw, 2rem);
+    border: 1px solid #dfe4f2;
+    border-radius: 1.25rem;
+    background: #f5f7fd;
+    line-height: 1.65;
+}
+
+.affiliation-card p {
+    margin: 0.25rem 0;
+}
+
+.affiliation-card .affiliation-lab {
+    margin-bottom: 0.85rem;
+    font-weight: 800;
+    color: #283765;
+}
+
+.affiliation-badge {
+    display: inline-block;
+    padding: 0.1rem 0.65rem;
+    border-radius: 999px;
+    background: #e5eafb;
+    font-size: 0.85em;
+    white-space: nowrap;
+}
+
+.affiliation-location {
+    color: #596477;
+    font-size: 0.95em;
+}
+
+.affiliation-card .affiliation-adviser {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1rem;
+    margin-top: 1rem;
+    padding-top: 0.85rem;
+    border-top: 1px solid #dfe4f2;
+}
+
+.affiliation-adviser span {
+    font-weight: 700;
 }
 
 .header {
@@ -42,7 +94,7 @@
 }
 
 section header h2{
-    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    font-family: var(--bs-body-font-family) !important;
     color: var(--h-title-color);
     font-size: 2.3rem;
     line-height: 4rem;
@@ -50,7 +102,7 @@ section header h2{
 
 section .main-body{
     font-size: 1.3rem;
-    font-weight: 200;
+    font-weight: 400;
     line-height: 2.4rem;
 }
 
