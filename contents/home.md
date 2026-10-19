@@ -1,7 +1,7 @@
 <div class="about-card about-card-bio">
 
 #### Short Bio
-I am a Ph.D. student in the joint Biomedical Engineering program at New Jersey Institute of Technology (NJIT) and Rutgers University. I conduct my research in the Machine Intelligence in Medicine and Imaging Lab (MI? Lab) in NJIT's Department of Biomedical Engineering, advised by [Dr. Lin Zhao](https://lin-zhao-research.github.io/), the lab's principal investigator (PI).
+I am a Ph.D. student in the joint Biomedical Engineering program at New Jersey Institute of Technology (NJIT) and Rutgers University. I conduct my research in the Machine Intelligence in Medicine and Imaging Lab (MI<sup>2</sup> Lab) in NJIT's Department of Biomedical Engineering, advised by [Dr. Lin Zhao](https://lin-zhao-research.github.io/), the lab's principal investigator (PI).
 
 </div>
 
@@ -19,7 +19,7 @@ My long-term goal is to develop reliable AI and imaging methods for clinical and
 
 #### Research Affiliation
 
-<p class="affiliation-lab">Machine Intelligence in Medicine and Imaging Lab <span class="affiliation-badge">MI? Lab</span></p>
+<p class="affiliation-lab">Machine Intelligence in Medicine and Imaging Lab <span class="affiliation-badge">MI<sup>2</sup> Lab</span></p>
 <p>Department of Biomedical Engineering</p>
 <p>New Jersey Institute of Technology</p>
 <p class="affiliation-location">Newark, NJ, USA</p>
